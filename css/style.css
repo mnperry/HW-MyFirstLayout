@@ -2,38 +2,26 @@ body {
     background-color: #DB8F5B;
     font-family: 'Merriweather', serif;
     color: black;
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 1fr;
-    grid-area: 
-    "about me"
-    "myJourney myJourney myJourney"
-    "social"
 }
-h1, h3 {
+h1, h2 {
     font-family: 'Shrikhand', cursive;
     font-size: 28px;
 }
 
-#myJourney h2 {
-    margin: 10px 30px;
-    padding: 10px;
-}
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.crookedbox1 {
-    transform: rotate(10deg);
-    background-color: #BE5D28;
-    
-}
 .aboutMe {
-    grid-row: aboutMe;
+    padding: 60px;
 }
+
+#header {
+    padding: 20px;
+}
+
+#myJourney {
+    background-color: #9B6848;
+    padding: 20px;
+}
+
+
 .myImage {
     width: 300px;
     height: 300px;
@@ -43,17 +31,23 @@ h1, h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    float: left;
-    margin: 20px;
 }
-#myJourney {
-    grid-row: myJourney;
-    background-color: #9B6848;
+
+ul {
+    padding-inline-start: 0px;
 }
+
+a {
+    color: #DB8F5B;
+}
+
+
 #social {
-    grid-row: social;
     background-color: #2E2122;
+    height: 200px;
+    padding: 20px;
 }
+
 
 li {
     list-style: none;
