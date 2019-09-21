@@ -7,21 +7,16 @@ h1, h2 {
     font-family: 'Shrikhand', cursive;
     font-size: 28px;
 }
-
 .aboutMe {
     padding: 60px;
 }
-
 #header {
     padding: 20px;
 }
-
 #myJourney {
     background-color: #9B6848;
     padding: 20px;
 }
-
-
 .myImage {
     width: 300px;
     height: 300px;
@@ -32,23 +27,17 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 ul {
     padding-inline-start: 0px;
 }
-
 a {
     color: #DB8F5B;
 }
-
-
 #social {
     background-color: #2E2122;
     height: 200px;
     padding: 20px;
 }
-
-
 li {
     list-style: none;
 }
