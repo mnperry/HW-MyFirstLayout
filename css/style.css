@@ -1,6 +1,6 @@
 body {
     background-color: #DB8F5B;
-    font-family: 'Merriweather', serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 h1, h2 {
@@ -8,14 +8,27 @@ h1, h2 {
     font-size: 28px;
 }
 .aboutMe {
-    padding: 60px;
+    padding: 50px;
+    color: #DB8F5B;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMe h1 {
+    font-size: 34px;
 }
 #header {
     padding: 20px;
 }
+.crookedbox1 {
+    background-color: #2E2122;
+    height: 300px;
+    width: 100%;
+    transform: rotate(2deg);
+}
 #myJourney {
-    background-color: #9B6848;
     padding: 20px;
+    height: 500px;
 }
 .myImage {
     width: 300px;
@@ -26,14 +39,15 @@ h1, h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px -24px;
 }
 ul {
     padding-inline-start: 0px;
 }
-a {
+h2 a {
     color: #DB8F5B;
 }
-#social {
+#contact {
     background-color: #2E2122;
     height: 200px;
     padding: 20px;
@@ -41,3 +55,98 @@ a {
 li {
     list-style: none;
 }
+
+.nav {
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   
+}
+.nav-item:hover {
+    background-color: #BE5D28;
+    transform: scale(2);
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.navbar-nav li {
+    padding: 30px;
+}
+.navbar-brand {
+    padding: 30px;
+    color: #2E2122;
+}
+.nav-item a {
+    color: #2E2122;
+}
+.journeyParagraph {
+    margin: 30px;
+}
+#workScroller {
+    background-color: #9B6848;
+}
+.col-sm {
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    background-color: #9B6848;
+}
+.workSection {
+    margin: 110px;
+    text-align: center;
+}
+
+.cdc, .gfrc, .trip {
+    padding: 20px;
+    text-align: center;
+}
+.cdc:hover {
+    background-image: url(../images/cdc.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    opacity: 0.7;  
+    cursor: pointer;
+}
+.gfrc:hover {
+    background-image: url(../images/gafrc.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    opacity: 0.7;  
+    cursor: pointer;
+}
+.trip:hover {
+    background-image: url(../images/tripable.png);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center; 
+    opacity: 0.7;  
+    cursor: pointer;
+}
+.col-sm:hover {
+    background-color: #BE5D28;
+    text-shadow: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+   
+}
+
+footer {
+    position: relative;
+}
+.caseBlock {
+    background-color: #9B6848;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+  
